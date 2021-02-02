@@ -1,0 +1,37 @@
+/* Your board style here */
+.racer-table {
+  background-color: black;
+  border-top: solid green 20px;
+  border-bottom: solid green 20px;
+
+}
+
+hr {
+  background-color: yellow;
+}
+
+.racer-table td {
+  height: 40px;
+  width: 40px;
+}
+.racer-table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#player1-race td.active {
+  background-image: url("images/player_1.png");
+}
+#player2-race td.active {
+  background-image: url("images/player_2.png");
+}
+
+#player2-race {
+  border-top: dotted white 2px;
+}
+
+#finish {
+  background: conic-gradient(black 25%, white 0deg 50%, black 0deg 75%, white 0deg);
+  border-left: white solid 2px;
+  border-style: groove;
+  /* padding-left: 10px; */
+}

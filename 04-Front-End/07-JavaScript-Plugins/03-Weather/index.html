@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Weather</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div id="container">
+
+      <form class="form-inline" id="form">
+        <div class="form-group mx-sm-3 mb-2">
+          <label for="city" class="sr-only">City</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="City">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Search</button>
+      </form>
+
+      <div id="main-div">
+        <h1 id="city-name">Weather in Paris</h1>
+        <h4 id="current-date"> Friday, November 2, 6PM</h4>
+        <p id="weather-description">clear sky</p>
+        <div class="weather-icon"><img src="icons/unknown.png" /></div>
+
+        <h2 id="degree">8 degree</h2>
+      </div>
+    </div>
+
+    <!-- TODO: Put your HTML code in here -->
+
+    <script type='text/javascript' src='config.js'></script>
+    <script src="main.js"></script>
+  </body>
+</html>

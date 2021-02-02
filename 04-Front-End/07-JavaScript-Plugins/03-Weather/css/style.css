@@ -1,0 +1,25 @@
+/* TODO: Put your CSS code in here */
+.header {
+  display: flex;
+}
+body {
+  margin-top: 40px;
+}
+
+#container {
+  width:40%;
+  margin: auto;
+  padding: 10px;
+
+}
+
+#main-div {
+  border: 1px gray solid;
+  width: auto%;
+  padding: 10px;
+}
+
+#form {
+  width: 80%;
+  padding: 10px;
+}
